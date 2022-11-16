@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 150px;
+    background: red;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .front {
+    height: 100%;
+    width: 100%;
+    border: 5px solid red;
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .card.is-active .front{
+    display: block;
+  }
+  
+  .card.is-active .back {
+    display: none;
+  }
+  
+  .card .front {
+    display: none;
+  }
+  
+  .card.blocked .front {
+      display: block;
+  }

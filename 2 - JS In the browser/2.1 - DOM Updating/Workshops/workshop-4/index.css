@@ -1,0 +1,12 @@
+.dialog {
+    position: fixed;
+    min-width: 300px;
+    min-height: 200px;
+    box-shadow: 0px 1px 2px black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    top: 20%;
+    padding: 12px;
+}

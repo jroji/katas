@@ -1,0 +1,1 @@
+// Busca el elemento "main" y añade un nuevo texto "Hola mundo" utilizando innerHTML
